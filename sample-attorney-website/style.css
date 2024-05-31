@@ -1,0 +1,610 @@
+@charset "UTF-8";
+
+/* Cat Rudoy */
+
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+header aside {
+    text-align: center;
+    font-size: 30px;
+}
+
+nav {
+    background: rgb(86, 161, 188);
+    width: 100%;
+    position: relative;
+    align-items: center;    
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+
+nav figure {
+    display: inline-flex;
+    margin: 0 50px 0 0px;
+    padding: 0;
+    width: 20%;
+}
+
+nav img {
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+nav ul {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 75%;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: right;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+nav ul li a {
+    color: white;
+    text-decoration-line: none;
+    display: block;
+    font-size: 16px;
+    border: 1px solid rgb(86, 161, 188);
+    padding: 5px;
+    transition-property: border, font-size;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+}
+
+footer a {
+    color:rgb(86, 161, 188);
+}
+
+footer a:hover {
+    color: lightgrey;
+}
+
+/* Home Page */
+
+.home-page-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.m-and-m-blurb {
+    margin: 20px;
+    padding: 10px;
+}
+
+.m-and-m-blurb h2 {
+    color:rgb(86, 161, 188);
+    text-align: center;
+    margin: 30px auto;
+}
+.m-and-m-blurb p{
+    color: white;
+    padding: 0 20px;
+}
+
+.practice-areas {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.practice-areas h3 {
+    color: rgb(86, 161, 188);
+    margin: 10px auto;
+    font-size: 22px;
+}
+
+.area {
+    width: 40%;
+    padding: 10px;
+    color: white;
+    margin: 5px auto;
+    display: inline-block;
+    
+}
+
+.area img {
+    width: 100%;
+}
+
+/* Our Firm */
+
+.firm-page-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.our-attorneys {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: 20px;
+    padding: 10px 50px;
+}
+
+.our-attorneys img {
+    width: 300px;
+    height: 200px;
+}
+
+.our-attorneys h2 {
+    text-align: center;
+    display: block;
+    color: white;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#partners {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#associates {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#other-staff {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.paralegal {
+    width: 33%;
+    padding: 10px;
+    color: white;
+    margin: 0;
+    display: inline-block;
+}
+
+.attorney {
+    width: 40%;
+    padding: 10px;
+    color: white;
+    margin: 5px auto;
+    display: inline-block;
+}
+
+.our-attorneys h3 {
+    margin: 5px 0;
+    padding: 0;
+    color:rgb(86, 161, 188);
+    font-size: 22px;
+}
+
+.our-attorneys aside {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.our-attorneys p {
+    font-size: 14px;
+}
+
+/*Testimonials*/
+
+.testimonials {
+    color: white;
+    width: 100%;
+    margin: 20px;
+}
+
+.testimonials aside {
+    margin: 0 75px 0 75px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid lightgrey;
+    box-shadow: 2px 2px 8px grey;
+    background-color:rgb(220, 230, 245);
+}
+
+.testimonials h4{
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.testimonials img {
+    max-width: 100%;
+    width: 100px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.testimonials p, q {
+    font-size: 16px;
+    margin: 20px 40px;
+    word-wrap: break-word;
+    display: inline-block;
+    line-height: 1.2;
+}
+
+/* Litigation Page */
+
+.litigation-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.litigation-practice, .mediation-practice {
+    margin: 50px;
+}
+
+.litigation-practice h3 {
+    color:rgb(86, 161, 188);
+    font-size: 22px;
+}
+
+.litigation-practice p {
+    color: white;
+    font-size: 16px;
+    margin: 10px auto;
+}
+
+.mediation-practice h3 {
+    color:rgb(86, 161, 188);
+    font-size: 22px;
+}
+
+.mediation-practice p {
+    color: white;
+    font-size: 16px;
+    margin: 10px auto;
+}
+
+/* Gallery */
+
+.our-results h3 {
+    width: 100%;
+    display: block;
+    color:rgb(86, 161, 188);
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.our-results {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px 30px;
+}
+
+.results {
+    max-width: 30%;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+/* Contact */
+
+.contact-img {
+    width: 100%;
+}
+
+.contact h2 {
+    font-size: 24px;
+    color:rgb(86, 161, 188);
+    text-align: center;
+    margin: 20px auto;
+}
+
+.contact aside {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.get-in-touch {
+    margin: 0 50px 50px 50px;
+    width: 400px;
+    display: inline-block;
+    padding: 30px;
+    vertical-align: top;
+    color: white;
+}
+
+.get-in-touch img {
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+
+
+.our-contact-info li {
+    list-style-type: none;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.our-contact-info a {
+    font-weight: 500;
+    padding-left: 15px;
+    color:rgb(86, 161, 188)
+}
+
+.our-contact-info li:last-child a {
+    margin-left: 69px;
+    display: block;
+    margin-top: -18px;
+}
+
+.our-contact-info li:last-child {
+    margin-left: -14px;
+    display: block;
+}
+
+.the-form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+#contact-form form {
+    width: 100%;
+    color: white;
+}
+
+#contact-form p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#contact-form input[type="radio"] {
+    margin-top: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    width: 50px;
+    margin-left: 0px;
+    font-weight: normal;
+}
+
+#contact-form ul {
+    margin-top: -10px;
+    list-style-type: none;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+#contact-form li {
+    margin-bottom: 5px;
+}
+
+#contact-form .contact-method-label {
+    font-size: 16px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+/* **************  MEDIA QUERIES ************* */
+
+
+@media only screen and (max-width:1024px) {
+    
+    * {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    
+    #partners, #associates, #other-staff {
+            display: block;
+        }
+    
+        .attorney, .paralegal {
+            width: 100%;
+        }
+
+        .our-results {
+            display: block;
+            width: 100%;
+        }
+    
+        .results {
+            max-width: 100%;
+        }
+
+        .get-in-touch {
+            width: 100%;
+            display: block;
+            color: white;
+            margin: 0 auto;
+        }
+    
+        .get-in-touch img {
+            border: 2px solid white;
+            margin-bottom: 0 auto 20px auto;
+            width: 100%;
+        }
+    
+        .the-form {
+            display: block;
+            width: 100%;
+        }
+}
+
+@media only screen and (max-width: 720px) {
+* {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .area {
+        width: 100%;
+    }
+
+    #partners, #associates, #other-staff {
+        display: block;
+    }
+
+    .attorney, .paralegal {
+        width: 100%;
+    }
+
+    .our-results {
+        display: block;
+        width: 100%;
+    }
+
+    .results {
+        max-width: 100%;
+    }
+
+    .get-in-touch {
+        width: 100%;
+        display: block;
+        color: white;
+        margin: 0 auto;
+    }
+
+    .get-in-touch img {
+        border: 2px solid white;
+        margin-bottom: 0 auto 20px auto;
+        width: 100%;
+    }
+    
+    .the-form {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    * {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav img {
+            display: inline-flex;
+            width: 50px;
+            height: 50px;
+            margin: auto;
+        }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .area {
+        width: 100%;
+    }
+
+    #partners, #associates, #other-staff {
+        display: block;
+    }
+
+    .attorney, .paralegal {
+        width: 100%;
+    }
+
+    .our-results {
+        display: block;
+        width: 100%;
+    }
+
+    .results {
+        max-width: 100%;
+    }
+
+    .get-in-touch {
+        width: 100%;
+        display: block;
+        color: white;
+        margin: 0 auto;
+    }
+
+    .get-in-touch img {
+        border: 2px solid white;
+        margin-bottom: 20px;
+    }
+
+    .the-form {
+        display: block;
+        width: 100%;
+    }
+
+}
